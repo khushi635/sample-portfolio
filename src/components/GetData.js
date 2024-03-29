@@ -17,10 +17,10 @@ import Work from "./work/Work.jsx"
        }
        
     }
-    const data = await findData(url);
-    console.log(data)
-    console.log(data.user.skills[0].image.url)
-    const mydata = data.user.about.name
+    const data =  await findData(url);
+    // console.log(data)
+    // console.log(data.user.skills[0].image.url)
+    // const mydata = data.user.about.name
 
     const wholeData = {
         about: {
@@ -309,7 +309,7 @@ import Work from "./work/Work.jsx"
         }
     }
 
-    console.log(wholeData)
+    // console.log(wholeData)
    
 
     // const wholeData = {
@@ -318,6 +318,12 @@ import Work from "./work/Work.jsx"
     // console.log(wholeData)
 
     export default wholeData
+
+
+    // "build": "vite build",
+
+    // "start": "react-scripts start",
+    // "build": "react-scripts build",
 
      
 
