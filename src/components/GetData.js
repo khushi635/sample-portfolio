@@ -17,7 +17,7 @@ import Work from "./work/Work.jsx"
        }
        
     }
-    const data =  await findData(url);
+    const data =   findData(url);
     // console.log(data)
     // console.log(data.user.skills[0].image.url)
     // const mydata = data.user.about.name
