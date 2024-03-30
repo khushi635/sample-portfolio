@@ -6,18 +6,21 @@ import Work from "./work/Work.jsx"
 
     const url = "https://portfolio-backend-30mp.onrender.com/api/v1/get/user/65b3a22c01d900e96c4219ae"
 
-    const findData = async(url) => {
+    // const findData = async(url) => {
        
-       try{
-        const response = await fetch(url)
-        const data = await response.json()
-        return data;
-       } catch(err) {
-        console.log(err)
-       }
+    //    try{
+    //     const response = await fetch(url)
+    //     const data = await response.json()
+    //     return data;
+    //    } catch(err) {
+    //     console.log(err)
+    //    }
        
-    }
-    const data =   await findData(url);
+    // }
+
+    const response =  await fetch(url)
+    const data = await response.json()
+   
     // console.log(data)
     // console.log(data.user.skills[0].image.url)
     // const mydata = data.user.about.name
